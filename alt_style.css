@@ -1,0 +1,43 @@
+html {
+    background-color: #E1D9D1;
+}
+header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: maroon;
+    min-height: 7.5vh;
+}
+a:link, a:visited, a:hover, a:active {
+        text-decoration: none;
+        color:black;
+}
+.headerTab {
+    cursor: pointer;
+}
+.headerTab:hover {
+    background-color: teal;
+}
+#main-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 85vh;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: maroon;
+    min-height: 7.5vh;
+    align-items: center;
+}
+button {
+    background-color: #E1D9D1;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 25%;
+}
+footer p {
+    color: #E1D9D1;
+}
