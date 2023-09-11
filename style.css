@@ -21,6 +21,7 @@ footer {
     padding: 0%;
     min-height: 10vh;
     justify-content: space-between;
+    align-items: center;
 }
 #main-section {
     min-height: 80vh;
@@ -41,4 +42,11 @@ footer {
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
     color:black;
+}
+button {
+    background-color: darkblue;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+    cursor: pointer;
 }

@@ -11,7 +11,7 @@ function toggleStyleSheet() {
     localStorage.setItem("style", newStyle);
 }
 
-window.onload() = function() {
+window.onload = function() {
     var webStyle = localStorage.getItem("style");
     var element = document.getElementById("styleLink");
     element.setAttribute("href", webStyle);
