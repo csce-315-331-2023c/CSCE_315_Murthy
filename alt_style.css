@@ -1,12 +1,16 @@
 html {
     background-color: #E1D9D1;
 }
+body {
+    margin: 0;
+    padding: 0;
+}
 header {
     display:flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: maroon;
-    min-height: 7.5vh;
+    min-height: 8vh;
 }
 a:link, a:visited, a:hover, a:active {
         text-decoration: none;
@@ -23,13 +27,13 @@ a:link, a:visited, a:hover, a:active {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    min-height: 85vh;
+    min-height: 84vh;
 }
 footer {
     display: flex;
     justify-content: space-around;
     background-color: maroon;
-    min-height: 7.5vh;
+    min-height: 8vh;
     align-items: center;
 }
 button {
@@ -37,7 +41,14 @@ button {
     padding-top: 1%;
     padding-bottom: 1%;
     border-radius: 25%;
+    cursor:pointer;
 }
 footer p {
     color: #E1D9D1;
+}
+h1 {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+p {
+    font-family: "Lucida Console", "Courier New", monospace;
 }
