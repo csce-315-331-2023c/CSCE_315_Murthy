@@ -31,12 +31,24 @@ footer {
     grid-area: 2/2/3/3;
     height: 100%;
 }
-#main-section {
+.main-section {
+    display: flex;
+    flex-direction: column;
     min-height: 80vh;
     background-size: cover;
     grid-area: 1/2/2/3;
     background-image: url('background-image.jpg');
     height: 100%;
+}
+#aboutMe {
+    flex-direction: row;
+}
+#text {
+    width: 30%;
+}
+.main-section p {
+    color: black;
+    font-size: x-large;
 }
 .headerTab{ 
     display: flex;
